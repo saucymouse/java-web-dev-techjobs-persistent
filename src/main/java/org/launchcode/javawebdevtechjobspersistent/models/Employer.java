@@ -16,7 +16,6 @@ public class Employer extends AbstractEntity {
     private String location;
 
     @OneToMany
-    //TODO circle back on this annotation
     @JoinColumn
     private List<Job> jobs = new ArrayList<>();
 
